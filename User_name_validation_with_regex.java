@@ -6,7 +6,7 @@ class UsernameValidator {
     /*
      * Write regular expression here.
      */
-    public static final String regularExpression = "^[aA-Zz]\\w{7,29}+$";
+        public static final String regularExpression = "^[A-Z|a-z]\\w{7,29}+$";
 }
 public class Solution {
     private static final Scanner scan = new Scanner(System.in);
